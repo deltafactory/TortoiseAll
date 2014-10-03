@@ -1,11 +1,39 @@
 [
-	{ "caption": "-" },
-	{ "caption": "SVN Add", "command": "svn_add", "args": {"paths":[]}},
-	{ "caption": "SVN Update", "command": "svn_update", "args": {"paths":[]}},
-	{ "caption": "SVN Commit", "command": "svn_commit", "args": {"paths":[]}},
-	{ "caption": "SVN Revert", "command": "svn_revert", "args": {"paths":[]}},
-	{ "caption": "SVN Log", "command": "svn_log", "args": {"paths":[]}},
-	{ "caption": "SVN Blame", "command": "svn_blame", "args": {"paths":[]}},
-	{ "caption": "SVN Switch", "command": "svn_switch", "args": {"paths":[]}},
-	{ "caption": "-", "id": "end" }
+    { "caption": "-" },
+    {
+        "caption": "TortoiseGit",
+        "children": [
+            { "caption": "Add",     "command": "git_add",   "args": {"paths":[]} },
+            { "caption": "Pull",    "command": "git_pull",  "args": {"paths":[]} },
+            { "caption": "Commit",  "command": "git_commit","args": {"paths":[]} },
+            { "caption": "Push",    "command": "git_push",  "args": {"paths":[]} },
+            { "caption": "Revert",  "command": "git_revert","args": {"paths":[]} },
+            { "caption": "Sync",    "command": "git_sync",  "args": {"paths":[]} },
+            { "caption": "Log",     "command": "git_log",   "args": {"paths":[]} },
+            { "caption": "Blame",   "command": "git_blame", "args": {"paths":[]} },
+            { "caption": "Switch",  "command": "git_switch","args": {"paths":[]} }
+        ]
+    },
+    {
+        "caption": "TortoiseSVN",
+        "children": [
+            { "caption": "Add",     "command": "svn_add",   "args": {"paths":[]} },
+            { "caption": "Update",  "command": "svn_update","args": {"paths":[]} },
+            { "caption": "Commit",  "command": "svn_commit","args": {"paths":[]} },
+            { "caption": "Revert",  "command": "svn_revert","args": {"paths":[]} },
+            { "caption": "Log",     "command": "svn_log",   "args": {"paths":[]} },
+            { "caption": "Blame",   "command": "svn_blame", "args": {"paths":[]} },
+            { "caption": "Switch",  "command": "svn_switch","args": {"paths":[]} }
+        ]
+    },
+    {
+        "caption": "TortoiseHg",
+        "children": [
+            { "caption": "Workbench",   "command": "hg_workbench",  "args": {"paths":[]} },
+            { "caption": "Commit",      "command": "hg_commit",     "args": {"paths":[]} },
+            { "caption": "Sync",        "command": "hg_sync",       "args": {"paths":[]} },
+            { "caption": "Update",      "command": "hg_update",     "args": {"paths":[]} }
+        ]
+    },
+    { "caption": "-", "id": "end" }
 ]

@@ -1,0 +1,11 @@
+{
+    // Auto close update/pull dialog when no errors, conflicts and merges
+    "autoCloseUpdatePullDialog": true,
+    // Auto close commit/push dialog when no errors, conflicts and merges
+    "autoCloseCommitPushDialog": true,
+    // Always open HgWorkbench in new window
+    "newHgWorkbench": true,
+    "tortoiseproc_path": "C:\\Program Files\\TortoiseSVN\\bin\\TortoiseProc.exe",
+    "tortoisegitproc_path": "C:\\Program Files\\TortoiseGit\\bin\\TortoiseGitProc.exe",
+    "tortoisehg_path": "C:\\Program Files\\TortoiseHg\\thg.exe",
+}

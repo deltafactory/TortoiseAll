@@ -1,0 +1,18 @@
+[
+    { "caption": "TortoiseGit: Pull",   "command": "git_pull" },
+    { "caption": "TortoiseGit: Commit", "command": "git_commit" },
+    { "caption": "TortoiseGit: Push",   "command": "git_push" },
+    { "caption": "TortoiseGit: Revert", "command": "git_revert" },
+    { "caption": "TortoiseGit: Sync",   "command": "git_sync" },
+    { "caption": "TortoiseGit: Log",    "command": "git_log" },
+
+    { "caption": "TortoiseHg: Workbench","command": "hg_workbench" },
+    { "caption": "TortoiseHg: Commit",  "command": "hg_commit" },
+    { "caption": "TortoiseHg: Sync",    "command": "hg_sync" },
+    { "caption": "TortoiseHg: Update",  "command": "hg_update" },
+
+    { "caption": "TortoiseSVN: Update", "command": "svn_update" },
+    { "caption": "TortoiseSVN: Commit", "command": "svn_commit" },
+    { "caption": "TortoiseSVN: Revert", "command": "svn_revert" },
+    { "caption": "TortoiseSVN: Log",    "command": "svn_log" },
+]
