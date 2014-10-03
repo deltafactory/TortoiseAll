@@ -1,12 +1,16 @@
 TortoiseAll
 =============
-TortoiseAll is a tiny and simple plugin for [Sublime Text](http://www.sublimetext.com) .
+TortoiseAll is just Git and Hg extensions of the ideas seen in brilliant [TortoiseSVN](https://sublime.wbond.net/packages/TortoiseSVN).
+
+TortoiseSVN is a tiny and simple plugin for [Sublime Text](http://www.sublimetext.com) .
 It's behavior is similar to [subclipse](http://subclipse.tigris.org/) in [Eclipse](http://www.eclipse.org/).
 **It runs only on Windows and needs the TortoiseSVN command line tools (TortoiseProc.exe), TortoiseGit command line tools (TortoiseGitProc.exe), TortoiseHg command line tools (thg.exe),.**
 
 Usage
 ============
-Install it using [Sublime Package Control](http://wbond.net/sublime_packages/package_control).  
+Install it using [Sublime Package Control](http://wbond.net/sublime_packages/package_control).
+
+You can call TortoiseAll commands through Command Palette or folders context menu in the sidebar.
 
 If TortoiseSVN is not installed at `C:\\Program Files\\TortoiseSVN\\bin\\TortoiseProc.exe`, specify the correct path
 by setting property "tortoiseproc_path" in your TortoiseAll.sublime-settings file.  
@@ -14,8 +18,6 @@ If TortoiseGit is not installed at `C:\\Program Files\\TortoiseGit\\bin\\Tortois
 by setting property "tortoisegitproc_path" in your TortoiseAll.sublime-settings file.  
 If TortoiseHG is not installed at `C:\\Program Files\\TortoiseHg\\thg.exe`, specify the correct path
 by setting property "tortoisehgproc_path" in your TortoiseAll.sublime-settings file.
-
-You can call TortoiseAll commands when right-clicking folders or files in the side bar.
 
 
 IMPORTANT

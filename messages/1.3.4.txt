@@ -1,0 +1,8 @@
+TortoiseAll 1.3.4 changelog
+===================================
+
+- Added: Git and Hg support.
+- 
+- Fixed: sidebar context menus reorganized to submenus.
+- 
+- Removed: all keyboard combinations.
