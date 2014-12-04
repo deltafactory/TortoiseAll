@@ -1,5 +1,6 @@
 [
     { "caption": "-" },
+    { "caption": "TGit Sync",       "command": "git_sync",  "args": {"paths":[]} },
     {
         "caption": "TortoiseGit",
         "children": [
