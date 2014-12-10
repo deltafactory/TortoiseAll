@@ -1,5 +1,6 @@
 [
     { "caption": "-" },
+    { "caption": "TGit Commit",     "command": "git_commit","args": {"paths":[]} },
     { "caption": "TGit Sync",       "command": "git_sync",  "args": {"paths":[]} },
     {
         "caption": "TortoiseGit",
